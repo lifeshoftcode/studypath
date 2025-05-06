@@ -1,0 +1,139 @@
+{
+  "career": "Ingeniería en Sistemas Computacionales",
+  "title": "Ingeniero en Sistemas Computacionales",
+  "faculty": "Facultad de Ingeniería",
+  "university": "Universidad Tecnológica",
+  "description": "Este programa prepara profesionales en el diseño, desarrollo e implementación de soluciones computacionales.",
+  "version": "2023-A",
+  "terms": [
+    {
+      "number": 1,
+      "name": "Primer Semestre",
+      "description": "Cursos fundamentales para iniciar la carrera",
+      "subjects": [
+        {
+          "code": "MAT101",
+          "name": "Cálculo I",
+          "credits": 4,
+          "theoryHours": 3,
+          "practiceHours": 2,
+          "prerequisites": [],
+          "description": "Introducción al cálculo diferencial e integral"
+        },
+        {
+          "code": "CS101",
+          "name": "Introducción a la Programación",
+          "credits": 4,
+          "theoryHours": 2,
+          "practiceHours": 4,
+          "prerequisites": [],
+          "description": "Fundamentos de programación y lógica"
+        },
+        {
+          "code": "FIS101",
+          "name": "Física General",
+          "credits": 4,
+          "theoryHours": 3,
+          "practiceHours": 2,
+          "prerequisites": [],
+          "description": "Principios básicos de física"
+        },
+        {
+          "code": "ING101",
+          "name": "Inglés Técnico",
+          "credits": 3,
+          "theoryHours": 2,
+          "practiceHours": 2,
+          "prerequisites": [],
+          "description": "Inglés orientado a la tecnología"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Segundo Semestre",
+      "description": "Continuación de los fundamentos",
+      "subjects": [
+        {
+          "code": "MAT102",
+          "name": "Cálculo II",
+          "credits": 4,
+          "theoryHours": 3,
+          "practiceHours": 2,
+          "prerequisites": ["MAT101"],
+          "description": "Continuación de cálculo diferencial e integral"
+        },
+        {
+          "code": "CS102",
+          "name": "Programación Orientada a Objetos",
+          "credits": 4,
+          "theoryHours": 2,
+          "practiceHours": 4,
+          "prerequisites": ["CS101"],
+          "description": "Paradigma de programación orientada a objetos"
+        },
+        {
+          "code": "ALG101",
+          "name": "Álgebra Lineal",
+          "credits": 3,
+          "theoryHours": 2,
+          "practiceHours": 1,
+          "prerequisites": [],
+          "description": "Fundamentos de álgebra lineal y matrices"
+        },
+        {
+          "code": "EST101",
+          "name": "Estadística Básica",
+          "credits": 3,
+          "theoryHours": 2,
+          "practiceHours": 2,
+          "prerequisites": [],
+          "description": "Conceptos básicos de probabilidad y estadística"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Tercer Semestre",
+      "description": "Introducción a temas avanzados",
+      "subjects": [
+        {
+          "code": "CS201",
+          "name": "Estructuras de Datos",
+          "credits": 4,
+          "theoryHours": 2,
+          "practiceHours": 4,
+          "prerequisites": ["CS102"],
+          "description": "Manejo de estructuras de datos complejas"
+        },
+        {
+          "code": "CS202",
+          "name": "Bases de Datos I",
+          "credits": 4,
+          "theoryHours": 2,
+          "practiceHours": 3,
+          "prerequisites": ["CS102"],
+          "description": "Fundamentos de bases de datos relacionales"
+        },
+        {
+          "code": "MAT201",
+          "name": "Ecuaciones Diferenciales",
+          "credits": 3,
+          "theoryHours": 3,
+          "practiceHours": 1,
+          "prerequisites": ["MAT102"],
+          "description": "Solución de ecuaciones diferenciales"
+        },
+        {
+          "code": "CS203",
+          "name": "Sistemas Operativos",
+          "credits": 4,
+          "theoryHours": 3,
+          "practiceHours": 2,
+          "prerequisites": ["CS101"],
+          "description": "Fundamentos de sistemas operativos"
+        }
+      ]
+    }
+  ]
+}
