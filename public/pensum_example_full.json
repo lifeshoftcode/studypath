@@ -1,0 +1,233 @@
+{
+  "career": "Ingeniería de Software",
+  "title": "Ingeniero/a en Software",
+  "faculty": "Facultad de Ciencias e Ingeniería",
+  "university": "Universidad Nacional de Tecnología",
+  "description": "Este programa forma profesionales competentes en el desarrollo, diseño y gestión de sistemas de software complejos, con un enfoque en metodologías ágiles, seguridad informática y arquitecturas escalables.",
+  "version": "2024-1",
+  "totalCredits": 190,
+  "degreeType": "Bachelor",
+  "department": "Departamento de Ingeniería de Software",
+  "programCoordinator": "Dr. Roberto Méndez",
+  "terms": [
+    {
+      "number": 1,
+      "name": "Primer Semestre",
+      "description": "Fundamentos básicos de matemáticas y programación",
+      "subjects": [
+        {
+          "code": "MAT101",
+          "name": "Cálculo I",
+          "credits": 5,
+          "theoryHours": 4,
+          "practiceHours": 2,
+          "prerequisites": [],
+          "description": "Límites, derivadas e integrales de funciones de una variable"
+        },
+        {
+          "code": "CS101",
+          "name": "Introducción a la Programación",
+          "credits": 4,
+          "theoryHours": 2,
+          "practiceHours": 4,
+          "prerequisites": [],
+          "description": "Conceptos básicos de programación utilizando Python"
+        },
+        {
+          "code": "FIS101",
+          "name": "Física I",
+          "credits": 4,
+          "theoryHours": 3,
+          "practiceHours": 2,
+          "prerequisites": [],
+          "description": "Mecánica clásica y termodinámica"
+        },
+        {
+          "code": "QUI101",
+          "name": "Química General",
+          "credits": 3,
+          "theoryHours": 2,
+          "practiceHours": 2,
+          "prerequisites": [],
+          "description": "Principios fundamentales de química"
+        },
+        {
+          "code": "HUM101",
+          "name": "Comunicación y Expresión",
+          "credits": 2,
+          "theoryHours": 2,
+          "practiceHours": 0,
+          "prerequisites": [],
+          "description": "Técnicas de comunicación oral y escrita"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Segundo Semestre",
+      "description": "Programación orientada a objetos y matemáticas avanzadas",
+      "subjects": [
+        {
+          "code": "MAT102",
+          "name": "Cálculo II",
+          "credits": 5,
+          "theoryHours": 4,
+          "practiceHours": 2,
+          "prerequisites": ["MAT101"],
+          "description": "Cálculo multivariable y ecuaciones diferenciales"
+        },
+        {
+          "code": "CS102",
+          "name": "Programación Orientada a Objetos",
+          "credits": 4,
+          "theoryHours": 2,
+          "practiceHours": 4,
+          "prerequisites": ["CS101"],
+          "description": "Principios y técnicas de POO con Java"
+        },
+        {
+          "code": "FIS102",
+          "name": "Física II",
+          "credits": 4,
+          "theoryHours": 3,
+          "practiceHours": 2,
+          "prerequisites": ["FIS101"],
+          "description": "Electromagnetismo y óptica"
+        },
+        {
+          "code": "ALG101",
+          "name": "Álgebra Lineal",
+          "credits": 4,
+          "theoryHours": 3,
+          "practiceHours": 2,
+          "prerequisites": [],
+          "description": "Espacios vectoriales, matrices y transformaciones lineales"
+        },
+        {
+          "code": "HUM102",
+          "name": "Ética Profesional",
+          "credits": 2,
+          "theoryHours": 2,
+          "practiceHours": 0,
+          "prerequisites": [],
+          "description": "Principios éticos en el contexto profesional"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Tercer Semestre",
+      "description": "Estructuras de datos y desarrollo web",
+      "subjects": [
+        {
+          "code": "CS201",
+          "name": "Estructuras de Datos",
+          "credits": 4,
+          "theoryHours": 2,
+          "practiceHours": 4,
+          "prerequisites": ["CS102"],
+          "description": "Diseño e implementación de estructuras de datos complejas"
+        },
+        {
+          "code": "CS202",
+          "name": "Bases de Datos I",
+          "credits": 4,
+          "theoryHours": 3,
+          "practiceHours": 2,
+          "prerequisites": ["CS102"],
+          "description": "Modelado de datos y SQL"
+        },
+        {
+          "code": "CS203",
+          "name": "Arquitectura de Computadoras",
+          "credits": 3,
+          "theoryHours": 2,
+          "practiceHours": 2,
+          "prerequisites": ["CS101", "FIS102"],
+          "description": "Organización y diseño de sistemas informáticos"
+        },
+        {
+          "code": "CS204",
+          "name": "Desarrollo Web",
+          "credits": 3,
+          "theoryHours": 1,
+          "practiceHours": 4,
+          "prerequisites": ["CS101"],
+          "description": "Tecnologías y frameworks para desarrollo frontend y backend"
+        },
+        {
+          "code": "MAT201",
+          "name": "Probabilidad y Estadística",
+          "credits": 3,
+          "theoryHours": 2,
+          "practiceHours": 2,
+          "prerequisites": ["MAT102"],
+          "description": "Conceptos y aplicaciones de probabilidad y estadística"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Cuarto Semestre",
+      "description": "Algoritmos y sistemas operativos",
+      "subjects": [
+        {
+          "code": "CS301",
+          "name": "Análisis y Diseño de Algoritmos",
+          "credits": 4,
+          "theoryHours": 3,
+          "practiceHours": 2,
+          "prerequisites": ["CS201", "MAT201"],
+          "description": "Complejidad algoritmica y métodos de optimización"
+        },
+        {
+          "code": "CS302",
+          "name": "Sistemas Operativos",
+          "credits": 4,
+          "theoryHours": 3,
+          "practiceHours": 2,
+          "prerequisites": ["CS203"],
+          "description": "Principios y diseño de sistemas operativos modernos"
+        },
+        {
+          "code": "CS303",
+          "name": "Bases de Datos II",
+          "credits": 3,
+          "theoryHours": 2,
+          "practiceHours": 2,
+          "prerequisites": ["CS202"],
+          "description": "Bases de datos NoSQL y distribuidas"
+        },
+        {
+          "code": "CS304",
+          "name": "Ingeniería de Software I",
+          "credits": 4,
+          "theoryHours": 3,
+          "practiceHours": 2,
+          "prerequisites": ["CS202", "CS204"],
+          "description": "Ciclo de vida del software y gestión de requisitos"
+        },
+        {
+          "code": "CS305",
+          "name": "Redes de Computadoras",
+          "credits": 3,
+          "theoryHours": 2,
+          "practiceHours": 2,
+          "prerequisites": ["CS302"],
+          "description": "Arquitectura de redes y protocolos de comunicación"
+        }
+      ]
+    }
+  ],
+  "requirements": {
+    "minimumGPA": 3.0,
+    "requiredProjects": ["Proyecto de Software Final"],
+    "internshipHours": 300,
+    "otherRequirements": ["Certificación en inglés nivel B2", "Servicio comunitario (100 horas)"]
+  },
+  "customFields": {
+    "certificaciones": ["Desarrollo Full-Stack", "DevOps", "Inteligencia Artificial"],
+    "intercambios": ["Universidad de Barcelona", "MIT", "Universidad de Tokio"],
+    "opciones_titulacion": ["Tesis", "Proyecto Aplicado", "Examen General"]
+  }
+}
