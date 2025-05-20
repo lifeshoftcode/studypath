@@ -21,6 +21,7 @@ import AISettings from './pages/AISettings/AISettings';
 import CreatePensum from './pages/Pensum/CreatePensum';
 import EditPensum from './pages/Pensum/EditPensum';
 import ImportPensum from './pages/Pensum/ImportPensum';
+import Schedule from './pages/Schedule/Schedule';
 
 function App() {
   const dispatch = useDispatch();
@@ -57,6 +58,8 @@ function App() {
           <Route path={PROTECTED_ROUTES.DASHBOARD} element={<Dashboard />} />
           <Route path={PROTECTED_ROUTES.PENSUM_TRACKING} element={<PensumView />} />
           <Route path={PROTECTED_ROUTES.AI_SETTINGS} element={<AISettings />} />
+          <Route path={PROTECTED_ROUTES.SCHEDULE} element={<Schedule />} />
+          <Route path={ROUTE_MAPPINGS[PROTECTED_ROUTES.SCHEDULE]} element={<Schedule />} />
           
           {/* Route mappings for Spanish URLs with English internal names */}
           <Route path={ROUTE_MAPPINGS[PROTECTED_ROUTES.CREATE_PENSUM]} element={<CreatePensum />} />

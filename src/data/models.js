@@ -55,6 +55,22 @@
  */
 
 /**
+ * @typedef {Object} ScheduleClass - A class in the student's schedule
+ * @property {string} subjectCode - Subject code
+ * @property {string} subjectName - Name of the subject
+ * @property {string} day - Day of the week (Monday, Tuesday, etc.)
+ * @property {string} startTime - Start time of the class (e.g., "08:00")
+ * @property {string} endTime - End time of the class (e.g., "09:30")
+ * @property {string} [location] - Optional classroom or building
+ * @property {string} [professor] - Optional professor name
+ */
+
+/**
+ * @typedef {Object} Schedule - A student's weekly class schedule
+ * @property {ScheduleClass[]} classes - Array of scheduled classes
+ */
+
+/**
  * Available subject statuses
  */
 export const SUBJECT_STATUS = {
@@ -110,5 +126,20 @@ export default {
   SUBJECT_STATUS,
   createEmptySubject,
   createEmptyTerm,
-  generateDefaultProgress
+  generateDefaultProgress,
+  createEmptyScheduleClass
 };
+
+/**
+ * Generate an empty schedule class structure
+ * @returns {Object} Empty schedule class
+ */
+export const createEmptyScheduleClass = () => ({
+  subjectCode: '',
+  subjectName: '',
+  day: 'Lunes',
+  startTime: '08:00',
+  endTime: '09:30',
+  location: '',
+  professor: ''
+});

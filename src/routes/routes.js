@@ -22,6 +22,7 @@ export const PROTECTED_ROUTES = {
   IMPORT_PENSUM: '/import-pensum',
   SEARCH_PENSUMS: '/search-pensums',
   AI_SETTINGS: '/configuracion-ia',
+  SCHEDULE: '/schedule',
 };
 
 // Route namespace mapping (for showing Spanish URLs in the browser)
@@ -31,6 +32,7 @@ export const ROUTE_MAPPINGS = {
   [PROTECTED_ROUTES.EDIT_PENSUM]: '/editar-pensum/:id', 
   [PROTECTED_ROUTES.IMPORT_PENSUM]: '/importar-pensum',
   [PROTECTED_ROUTES.SEARCH_PENSUMS]: '/buscar-pensums',
+  [PROTECTED_ROUTES.SCHEDULE]: '/horario',
 };
 
 // Helper function to get the display path
