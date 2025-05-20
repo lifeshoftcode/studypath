@@ -57,6 +57,11 @@ const Dashboard = () => {
         <div className="flex justify-between items-center mb-8">
           <h2 className="text-2xl font-bold text-gray-800">Mis Planes de Estudio</h2>
           <div className="flex flex-wrap gap-2">
+            <Link to={ROUTE_MAPPINGS[PROTECTED_ROUTES.SCHEDULE]}>
+              <Button variant="outline" size="small">
+                Horario de Clases
+              </Button>
+            </Link>
             <Link to={ROUTE_MAPPINGS[PROTECTED_ROUTES.SEARCH_PENSUMS]}>
               <Button variant="outline" size="small">
                 Buscar Planes Públicos
